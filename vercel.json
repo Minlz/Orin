@@ -1,0 +1,12 @@
+{
+  "build": {
+    "command": "echo '无需构建步骤'",
+    "output": "."
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ]
+}
